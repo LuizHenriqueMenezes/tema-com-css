@@ -1,14 +1,11 @@
 body {
+    background-image: url(praia.jpg);
+    background-size: cover;   
 }
 
 main#container {
-}
-
-h1.titulo {
-}
-
-p.frase {
-}
-
-p.autor {
+    border: 2px solid black; 
+    padding: 50px;
+    background-image: linear-gradient(45deg, rgb(58, 209, 58) 10%, rgb(0, 255, 191) 40%, rgb(14, 98, 223) 50%);
+    box-shadow: 8px 10px 10px 0 black;
 }
